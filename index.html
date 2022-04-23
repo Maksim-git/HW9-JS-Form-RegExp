@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW#9-JS_DOM_PART3</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <form class="form" action="#">
+        <label for="input-label" class="form__label"
+          >Enter a list of what to buy:</label
+        >
+        <input
+          id="input-label"
+          class="form__input"
+          type="text"
+          placeholder="Text"
+          autofocus
+        />
+        <span class="txt__error">Entered data is not correct.</span>
+        <button class="form__button" type="submit">Add</button>
+      </form>
+      <div>
+        <h4>What to buy:</h4>
+        <ul class="list"></ul>
+      </div>
+    </div>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

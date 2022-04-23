@@ -1,0 +1,91 @@
+body {
+  height: 100vh;
+  background: #020024;
+  background: linear-gradient(352deg, #020024 0%, #090979 6%, #ffffff 100%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  height: 20px;
+  width: 230px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.form__button {
+  margin-top: 10px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+  background-color: greenyellow;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.delete-button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 30px;
+  color: white;
+  background-color: #ff3333;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.list__li {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.list {
+  min-width: 259px;
+  padding: 0;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.active {
+  background-color: green;
+}
+
+.error {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.txt__error {
+  display: none;
+  color: #dc3545;
+  padding: 0 5px;
+}
+
+.display {
+  display: block;
+}
+
+.form__label {
+  margin-bottom: 10px;
+}
